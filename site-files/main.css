@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url(/site-files/gotham.ttf);
+}
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url(/site-files/gotham-b.ttf);
+}
+@font-face {
+	font-family: 'Gotham Pro Black';
+	src: url(/site-files/gotham-black.ttf);
+}
+
+@font-face {
+	font-family: 'Gotham Pro Italic';
+	src: url(/site-files/gotham-i.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0 40px 0 40px;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #201723;
+	color: white;
+	font-family: 'Gotham Pro', Arial;
+}
+
+.fleft {float: left;}
+.fright {float: right;}
+.clean {clear: both;}
+
+#wrapper {
+	width: 100%;
+	max-width: 1520px;
+	min-width: 320px;
+}
+
+#menu {
+	width: 60px;
+	height: 60px;
+	margin: 0 0 -60px 0;
+	float: right;
+	background-color: #EC2C42;
+	background-image: url(/site-files/menu.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#about-me {
+	width: 100%;
+	margin: 0 0 60px 0;
+	clear: both;
+}
+
+#fresh {
+	width: 100%;
+	max-width: 1520px;
+	border-radius: 5px;
+}
+
+#fresh img {
+	border-radius: 5px;
+	width: 100%;
+}
+
+h1 {
+	margin: 0 0 40px 0;
+	padding: 0;
+	width: 100%;
+	font-style: black;
+	font-size: 32px;
+	line-height: 40px;
+	clear: both;
+	font-weight: normal;
+	font-family: 'Gotham Pro Black', Arial;
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	clear: both;
+	font-size: 22px;
+	line-height: 24px;
+	width: 100%;
+	font-weight: normal;
+	font-family: 'Gotham Pro Bold', Arial;
+
+}
+
+#portfolio {
+	max-width: 1378px;
+	margin: 60px 0 0 0;
+}
+
+#portfolio div {
+	display: block;
+	float: left;
+	margin: 0 2px 60px 0;
+	width: 25%;
+	min-width: 200px;
+	max-width: 300px;
+	padding: 0;
+}
+
+#portfolio div img {
+	width: 100%;
+}
+
+#portfolio div span {
+	display: block;
+	font-family: 'Gotham Pro Italic', Arial;
+	font-size: 12px;
+}
+
+#routine {
+	max-width: 1100px;
+	clear: both;
+	padding: 60px 0 0 0;
+}
+
+#routine a {
+	border: none;
+	text-decoration: none;
+	float: left;
+	margin: 0 2px 2px 0;
+}
+
+#routine a img {
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: 0; padding: 0;
+}
+
+#notes-mainpage {
+	clear: both;
+	padding: 100px 0 60px 0;
+}
+
+#notes-mainpage div {
+	width: 25%;
+	max-width: 240px;
+	float: left;
+}
+
+#notes-mainpage a {
+	display: block;
+	font-size: 14px;
+	font-family: 'Gotham Pro Italic', Arial;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 65px;
+	clear: both;
+	text-decoration: none;
+	color: white;
+	line-height: 18px;
+	padding: 26px 0 10px 7px;
+	background-image: url(/site-files/all-notes-arrow.svg);
+	background-position: 42px 9px;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+}
+
+#footer {
+	clear: both;
+	width: 37px;
+	height: 61px;
+	margin: 100px 0 60px 0;
+	background-image: url(/site-files/the-end.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
