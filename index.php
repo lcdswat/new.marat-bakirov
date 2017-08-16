@@ -5,16 +5,18 @@
 	<title>Марат Бакиров</title>
 </head>
 <body>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
 <div id="wrapper">
-
-	<!-- <div id="menu"></div> -->
-	
-	<div id="about-me">
-		<img src="/site-files/me-mainpage.svg">
-	</div>
 
 	<div id="fresh">
 		<img src="/i/infobot-macbook.png">
+		<div>
+			<span>Сайт infobot.pro</span>
+			Душа моя озарена неземной радостью, как<br>
+			эти чудесные весенние утра, которыми я наслаждаюсь<br>
+			от всего сердца. 
+			<a href="/">Посмотреть</a>
+		</div>
 	</div >
 	
 	<!-- Портфолио -->
@@ -65,9 +67,9 @@
 	<!-- Рутина -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/routine.html'); ?>
 
-</div>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
+</div>
 
 </body>
 </html>

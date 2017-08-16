@@ -18,12 +18,19 @@
 
 body {
 	margin: 0;
-	padding: 0 40px 0 40px;
 	font-size: 14px;
 	line-height: 24px;
 	background-color: #201723;
 	color: white;
 	font-family: 'Gotham Pro', Arial;
+	-webkit-transition: background-color ease 0.4,;
+	-moz-transition: background-color ease 0.4s;
+	-o-transition: background-color ease 0.4s;
+	transition: background-color ease 0.4s;
+}
+
+body.black {
+	background-color: #100b11;
 }
 
 .fleft {float: left;}
@@ -31,20 +38,21 @@ body {
 .clean {clear: both;}
 
 #wrapper {
+	padding: 40px 40px 0 40px;
 	width: 100%;
 	max-width: 1520px;
 	min-width: 320px;
+	opacity: 1;
+	-webkit-transition: filter ease 0.2,;
+	-moz-transition: filter ease 0.2s;
+	-o-transition: filter ease 0.2s;
+	transition: filter ease 0.2s;
 }
 
-#menu {
-	width: 60px;
-	height: 60px;
-	margin: 0 0 -60px 0;
-	float: right;
-	background-color: #EC2C42;
-	background-image: url(/site-files/menu.svg);
-	background-repeat: no-repeat;
-	background-position: center center;
+#wrapper.show {
+	filter: blur(10px);
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 #about-me {
@@ -57,11 +65,39 @@ body {
 	width: 100%;
 	max-width: 1520px;
 	border-radius: 5px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#fresh span {
+	display: block;
+	font-size: 42px;
+	line-height: 42px;
+	font-family: 'Gotham Pro Black';
+	margin: 220px 0 35px 0;
 }
 
 #fresh img {
-	border-radius: 5px;
+	position: relative;
 	width: 100%;
+}
+
+#fresh a {
+	width: 200px;
+	display: block;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 100px;
+	text-decoration: none;
+	border: 2px solid white;
+	color: white;
+	margin: 80px 0 80px 0;
+}
+
+#fresh div {
+	position: absolute;
+	height: 300px;
+	top: 0;
 }
 
 h1 {
@@ -105,6 +141,7 @@ h2 {
 
 #portfolio div img {
 	width: 100%;
+	border-radius: 5px;
 }
 
 #portfolio div span {
