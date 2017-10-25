@@ -7,12 +7,15 @@
 .menu-button {
 	width: 60px;
 	height: 60px;
-	margin: 40px 0 -60px 40px;
+	margin: 0 0 -60px 40px;
+	top: 40px;
 	background-color: #EC2C42;
 	background-image: url(/site-files/menu.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	cursor: pointer;
+	position: relative;
+	z-index: 997;
 }
 
 #menu {
