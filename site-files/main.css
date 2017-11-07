@@ -74,7 +74,6 @@ body.black {
 }
 
 #fresh div {
-	height: 300px;
 	margin: 0 0 -300px 0;
 	position: absolute;
 	top: 280px;
@@ -86,6 +85,10 @@ body.black {
 	position: relative;
 }
 
+#fresh p {
+	max-width: 360px;
+}
+
 #fresh a {
 	width: 200px;
 	display: block;
@@ -95,7 +98,20 @@ body.black {
 	text-decoration: none;
 	border: 2px solid white;
 	color: white;
-	margin: 80px 0 80px 0;
+	margin: 80px 0 0 0;
+	-webkit-transition: box-shadow ease-out 0.2,;
+	-moz-transition: box-shadow ease-out 0.2s;
+	-o-transition: box-shadow ease-out 0.2s;
+	transition: box-shadow ease-out 0.2s;
+}
+
+#fresh a:hover {
+	background-image: url(/site-files/fish.jpg);
+	background-size: cover;
+	border: none;
+	padding: 22px 22px 22px 32px;
+	color: #201723;
+	/*box-shadow: 0 0 50px #4b5961;*/
 }
 
 @media all and (max-width: 1330px) {
@@ -113,6 +129,17 @@ body.black {
 		position: relative;
 		margin: 120px 0 40px 0;
 		top: 0;
+		background-color: blue;
+		padding: 40px;
+		border-radius: 5px;
+		background-image: url(/site-files/fish.jpg);
+		background-size: cover;
+		color: black;
+	}
+
+	#fresh a {
+		border-color: #201723;
+		color: #201723;
 	}
 }
 
@@ -198,11 +225,9 @@ p {
 
 #notes-mainpage div {
 	display: inline-block;
-	width: 25%;
-	max-width: 240px;
-	padding: 0 40px 0 0;
+	max-width: 260px;
+	padding: 0 20px 40px 0;
 	margin: 0;
-	background-color: green;
 	vertical-align: top;
 }
 
@@ -218,6 +243,8 @@ p {
 	color: white;
 	line-height: 18px;
 	padding: 26px 0 10px 7px;
+	position: relative;
+	float: right;
 	background-image: url(/site-files/all-notes-arrow.svg);
 	background-position: 42px 9px;
 	background-repeat: no-repeat;

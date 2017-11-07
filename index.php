@@ -17,9 +17,7 @@
 		<div>
 			<span>Сайт infobot.pro</span>
 			<p>
-				Душа моя озарена неземной радостью, как<br>
-				эти чудесные весенние утра, которыми<br>
-				я наслаждаюсь от всего сердца. 
+				Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. 
 			</p>
 			<a href="/">Посмотреть</a>
 		</div>
@@ -48,11 +46,11 @@
 		</div>
 	</div>
 
-	<!-- Заметки -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/notes.html'); ?>
-
 	<!-- Рутина -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/routine.html'); ?>
+
+	<!-- Заметки -->
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/notes.html'); ?>
 
 	<!-- Футер -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
