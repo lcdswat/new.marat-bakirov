@@ -41,15 +41,15 @@
 	float: left;
 }
 
-#menu #one {
+#menu #menu-first-column {
 	width: 150px;
 }
 
-#menu #two {
+#menu #menu-second-column {
 	width: 220px;
 }
 
-#menu #three {
+#menu #menu-third-column {
 	width: 290px;
 }
 

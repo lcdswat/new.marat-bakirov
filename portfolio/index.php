@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/header.html'); ?>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<title>Марат Бакиров — Портфолио</title>
 </head>
 <body>
 
 <!-- Меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/menu.html'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.html'); ?>
 
 <div id="wrapper">
 
@@ -38,11 +37,11 @@
 	</div>
 
 	<!-- Рутина -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/routine.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/routine.html'); ?>
 
 
 	<!-- Футер -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/site-files/includes/footer.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
 
 </div>
 

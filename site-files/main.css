@@ -85,7 +85,7 @@ body {
 	width: 170px;
 	display: block;
 	font-size: 18px;
-	padding: 20px 20px 20px 30px;
+	padding: 20px 20px 24px 30px;
 	border-radius: 100px;
 	text-decoration: none;
 	border: 2px solid white;
@@ -98,12 +98,11 @@ body {
 }
 
 #fresh a:hover {
-	background-image: url(/site-files/fish.jpg);
+	background-image: url(/site-files/gradient.jpg);
 	background-size: cover;
 	border: none;
 	padding: 22px 22px 22px 32px;
 	color: #201723;
-	/*box-shadow: 0 0 50px #4b5961;*/
 }
 
 #fresh a:hover use {
