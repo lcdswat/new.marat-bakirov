@@ -127,8 +127,27 @@
 	display: block;
 }
 
+#menu-close-button {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: 0 0 -30px 40px;
+	cursor: pointer;
+	background-image: url('/site-files/close-button.svg');
+	background-position: center center;
+	background-size: 30px 30px;
+	transform: rotate(45deg);
+}
+
+#menu-close-button:hover {
+}
+
 @media all and (max-width: 1460px) {
 	#me {display: none;}
 	#me-short {display: block !important;}
+}
+
+@media all and (max-width: 1160px) {
+	#menu-close-button {display: none !important;}
 }
 /*EOF меню*/
